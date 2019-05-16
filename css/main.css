@@ -1,35 +1,56 @@
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, nav, section, summary {
-  display: block;
-}
-
-body {
-  background-image: url()Red_Salvation.png;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #fff;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
+  background: green;
+  padding: 10px;
+}
+
+.logo {
+  background: orange;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.nav a {
+  display: block;
+  padding: 25px;
+  background: tomato;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav a:hover {
+  background: purple;
+  color: white;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  width: 70%;
+  padding: 25px;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 25px;
+}
+
+.footer {
+  padding: 25px;
 }
 
 .header,
-.content,
-.sidebar {
-  margin-bottom: 50px;
-}
